@@ -1,0 +1,48 @@
+/* src/components/Navbar.css */
+
+/* You can add or override styles for the navbar here */
+
+/* Example: Styling the new sign-in button specifically for the navbar */
+.navbar-logo {
+  height: 30px; /* Adjust the height of the logo */
+  width: auto; /* Maintain aspect ratio */
+  margin-top: 5px;
+}
+.sign-in-button-navbar {
+  padding: 8px 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #006dff;
+  background-color: #006dff; /* Your desired black background */
+  color: #fff; /* White text for contrast */
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.sign-in-button-navbar:hover {
+  background-color: #ffffff; /* Slightly lighter black on hover */
+    color: #006dff; /* Change text color to blue on hover */
+border: 1px solid #006dff; /* Keep the border color consistent */
+}
+.talk-to-sales-button-navbar {
+    background-color: #ffffff; /* Slightly lighter black on hover */
+    color: #006dff; /* Change text color to blue on hover */
+    border: 1px solid #006dff; 
+    padding: 8px 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.talk-to-sales-button-navbar:hover {
+    background-color: #006dff; /* Slightly lighter black on hover */
+    color: #ffffff; /* Change text color to blue on hover */
+    border: 1px solid #006dff; 
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* You can also add other specific styles for navbar elements here if needed */
+/* For example, if you wanted to change the logo size only for the navbar */
+/* .navbar-logo {
+  height: 45px;
+} */
